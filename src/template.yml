@@ -167,11 +167,14 @@ colors:
   # 'extensionButton.background': '{bg_bold}'
   # 'extensionButton.foreground': '{bg_main}'
 
+  'gitDecoration.addedResourceForeground': '{fg_main}'
+  'gitDecoration.conflictingResourceForeground': '{fg_main}'
   'gitDecoration.deletedResourceForeground': '{fg_main}'
   'gitDecoration.ignoredResourceForeground': '{fg_fade}'
+  'gitDecoration.modifiedResourceForeground': '{fg_main}'
+  'gitDecoration.renamedResourceForeground': '{fg_main}'
   'gitDecoration.stageDeletedResourceForeground': '{fg_main}'
   'gitDecoration.stageModifiedResourceForeground': '{fg_main}'
-  'gitDecoration.modifiedResourceForeground': '{fg_main}'
   'gitDecoration.submoduleResourceForeground': '{fg_main}'
   'gitDecoration.untrackedResourceForeground': '{fg_main}'
 
