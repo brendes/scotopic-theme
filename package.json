@@ -1,0 +1,41 @@
+{
+  "name": "scotopic-theme",
+  "displayName": "Scotopic Theme",
+  "description": "Dark themes for working in low light",
+  "publisher": "brendes",
+  "version": "0.1.0",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/brendes/scotopic-theme"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "monochrome",
+    "minimal",
+    "clean"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Scotopic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scotopic-color-theme.json"
+      },
+      {
+        "label": "Scotopic Amber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scotopic-amber-color-theme.json"
+      },
+      {
+        "label": "Scotopic Deep",
+        "uiTheme": "vs-dark",
+        "path": "./themes/scotopic-deep-color-theme.json"
+      }
+    ]
+  }
+}
