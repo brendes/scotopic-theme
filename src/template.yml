@@ -263,8 +263,8 @@ colors:
   'statusBar.debuggingBackground': '{fg_main}'
   'statusBar.debuggingForeground': '{bg_main}'
   'statusBar.foreground': '{fg_main}'
-  'statusBar.noFolderBackground': '{fg_accent}'
-  'statusBar.noFolderForeground': '{fg_bold}'
+  'statusBar.noFolderBackground': '{bg_main}'
+  'statusBar.noFolderForeground': '{fg_main}'
 
   'statusBarItem.errorBackground': '{fg_accent}'
   'statusBarItem.errorForeground': '{bg_main}'
