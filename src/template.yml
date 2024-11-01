@@ -136,6 +136,7 @@ colors:
   'editor.selectionBackground': '{bg_hl}ee'
   'editor.selectionForeground': '{fg_main}'
 
+  'editorCodeLens.foreground': '{fg_faint}'
   'editorGhostText.foreground': '{fg_faint}'
 
   'editorGroup.border': '{border}'
