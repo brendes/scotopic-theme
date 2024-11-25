@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
 import json
-import yaml
 from themes import themes
 
 
 def generate_theme(theme_dict, template_file, output_file):
     """Generate a color-theme JSON file based on a theme dictionary."""
     with open(template_file, "r") as f:
-        theme_template = yaml.safe_load(f)
+        theme_template = json.load(f)
 
     def recursive_format(value):
         if isinstance(value, str):
@@ -28,13 +27,13 @@ def generate_theme(theme_dict, template_file, output_file):
 
 def main():
     generate_theme(
-        themes["main"], "src/template.yml", "themes/scotopic-color-theme.json"
+        themes["main"], "src/template.json", "themes/scotopic-color-theme.json"
     )
     generate_theme(
-        themes["amber"], "src/template.yml", "themes/scotopic-amber-color-theme.json"
+        themes["amber"], "src/template.json", "themes/scotopic-amber-color-theme.json"
     )
     generate_theme(
-        themes["deep"], "src/template.yml", "themes/scotopic-deep-color-theme.json"
+        themes["deep"], "src/template.json", "themes/scotopic-deep-color-theme.json"
     )
 
 
