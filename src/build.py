@@ -30,9 +30,6 @@ def main():
         themes["main"], "src/template.json", "themes/scotopic-color-theme.json"
     )
     generate_theme(
-        themes["amber"], "src/template.json", "themes/scotopic-amber-color-theme.json"
-    )
-    generate_theme(
         themes["deep"], "src/template.json", "themes/scotopic-deep-color-theme.json"
     )
 
