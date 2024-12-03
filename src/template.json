@@ -202,7 +202,7 @@
         "list.highlightForeground": "{fg_bold}",
         "list.hoverBackground": "{bg_subtle}",
         "list.hoverForeground": "{fg_main}",
-        "list.inactiveSelectionBackground": "{bg_hl}",
+        "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{fg_accent}",
 
         "notificationCenter.border": "{border}",
