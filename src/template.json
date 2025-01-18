@@ -232,7 +232,7 @@
         "notificationCenterHeader.foreground": "{fg_main}",
         "notificationLink.foreground": "{fg_accent}",
         "notificationToast.border": "{border}",
-        "notifications.background": "{bg_main}",
+        "notifications.background": "{bg_subtle}",
         "notifications.foreground": "{fg_main}",
         "notifications.border": "{border}",
         "notificationsErrorIcon.foreground": "{fg_bold}",
