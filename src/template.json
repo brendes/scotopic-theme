@@ -122,7 +122,21 @@
         "debugConsole.infoForeground": "{fg_main}",
         "debugConsole.sourceForeground": "{fg_main}",
         "debugConsole.warningForeground": "{fg_accent}",
-        "debugIcon.breakpointForeground": "{fg_accent}",
+        "debugConsoleInputIcon.foreground": "{fg_accent}",
+        "debugIcon.breakpointCurrentStackframeForeground": "{fg_bold}",
+        "debugIcon.breakpointDisabledForeground": "{fg_bold}",
+        "debugIcon.breakpointForeground": "{fg_bold}",
+        "debugIcon.breakpointStackframeForeground": "{fg_bold}",
+        "debugIcon.breakpointUnverifiedForeground": "{fg_bold}",
+        "debugIcon.continueForeground": "{fg_bold}",
+        "debugIcon.pauseForeground": "{fg_bold}",
+        "debugIcon.restartForeground": "{fg_bold}",
+        "debugIcon.startForeground": "{fg_bold}",
+        "debugIcon.stepBackForeground": "{fg_bold}",
+        "debugIcon.stepIntoForeground": "{fg_bold}",
+        "debugIcon.stepOutForeground": "{fg_bold}",
+        "debugIcon.stepOverForeground" : "{fg_bold}",
+        "debugIcon.stopForeground": "{fg_bold}",
 
         "editor.background": "{bg_main}",
         "editor.foreground": "{fg_main}",
@@ -160,6 +174,8 @@
         "editorGutter.deletedBackground": "{fg_accent}",
         "editorGutter.modifiedBackground": "{fg_accent}",
 
+        "editorInfo.foreground": "{fg_fade}",
+
         "editorIndentGuide.activeBackground1": "{bg_hl}",
         "editorIndentGuide.background1": "{bg_subtle}",
 
@@ -167,14 +183,18 @@
         "editorInlayHint.background": "{bg_main}",
 
         "editorLightBulb.foreground": "{fg_main}",
+        "editorLightBulbAi.foreground": "{fg_main}",
+        "editorLightBulbAutoFix.foreground": "{fg_main}",
 
         "editorLineNumber.activeForeground": "{fg_subtle}",
         "editorLineNumber.foreground": "{fg_faint}",
 
         "editorLink.activeForeground": "{fg_accent}",
 
-        "editorStickyScroll.border": "{bg_main}",
+        "editorStickyScroll.border": "{border}",
         "editorStickyScrollHover.background": "{bg_fade}",
+
+        "editorWarning.foreground": "{fg_subtle}",
 
         "gitDecoration.addedResourceForeground": "{fg_main}",
         "gitDecoration.conflictingResourceForeground": "{fg_main}",
@@ -204,6 +224,8 @@
         "list.hoverForeground": "{fg_main}",
         "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{fg_accent}",
+        
+        "minimap.infoHighlight": "{fg_main}",
 
         "notificationCenter.border": "{border}",
         "notificationCenterHeader.background": "{bg_fade}",
@@ -328,6 +350,7 @@
         "terminalCommandDecoration.successBackground": "{fg_main}",
         "terminalCommandDecoration.errorBackground": "{fg_bold}",
         "terminalStickyScrollHover.background": "{bg_fade}",
+        "terminalStickyScroll.border": "{border}",
 
         "textBlockQuote.background": "{bg_subtle}",
         "textBlockQuote.border": "{border}",
@@ -355,6 +378,12 @@
         "keybindingLabel.foreground": "{fg_main}",
         "keybindingLabel.border": "{fg_main}",
         "keybindingLabel.bottomBorder": "{fg_main}",
+
+        "scmGraph.foreground1": "{fg_main}",
+        "scmGraph.foreground2": "{fg_main}",
+        "scmGraph.foreground3": "{fg_main}",
+        "scmGraph.foreground4": "{fg_main}",
+        "scmGraph.foreground5": "{fg_main}",
 
         "symbolIcon.arrayForeground": "{fg_main}",
         "symbolIcon.booleanForeground": "{fg_main}",
