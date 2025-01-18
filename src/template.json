@@ -384,6 +384,11 @@
         "scmGraph.foreground3": "{fg_main}",
         "scmGraph.foreground4": "{fg_main}",
         "scmGraph.foreground5": "{fg_main}",
+        "scmGraph.historyItemBaseRefColor": "{fg_main}",
+        "scmGraph.historyItemRefColor": "{fg_main}",
+        "scmGraph.historyItemRemoteRefColor": "{fg_main}",
+        "scmGraph.historyItemHoverAdditionsForeground": "{fg_main}",
+        "scmGraph.historyItemHoverDeletionsForeground": "{fg_main}",
 
         "symbolIcon.arrayForeground": "{fg_main}",
         "symbolIcon.booleanForeground": "{fg_main}",
