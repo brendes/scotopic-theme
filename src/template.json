@@ -68,7 +68,7 @@
         "focusBorder": "{border}",
         "foreground": "{fg_main}",
         "icon.foreground": "{fg_main}",
-        "selection.background": "{bg_hl}",
+        "selection.background": "{bg_sel}",
         "widget.border": "{border}",
 
         "editorHoverWidget.background": "{bg_subtle}",
@@ -148,7 +148,7 @@
         "editor.findMatchHighlightForeground": "{fg_bold}",
 
         "editor.foldBackground": "{bg_main}",
-        "editor.lineHighlightBorder": "{bg_hl}",
+        "editor.lineHighlightBorder": "{bg_fade}",
         "editor.hoverHighlightBackground": "{bg_main}",
         "editor.placeholder.foreground": "{fg_dim}",
         "editor.rangeHighlightBackground": "{bg_hl}bb",
@@ -157,7 +157,7 @@
         "editorBracketMatch.background": "{bg_hl}",
         "editorBracketMatch.border": "{fg_main}",
 
-        "editor.selectionBackground": "{bg_hl}ee",
+        "editor.selectionBackground": "{bg_sel}",
         "editor.selectionForeground": "{fg_main}",
 
         "editorCodeLens.foreground": "{fg_faint}",
@@ -214,17 +214,17 @@
         "input.foreground": "{fg_main}",
         "input.placeholderForeground": "{fg_dim}",
 
-        "list.activeSelectionBackground": "{bg_hl}",
+        "list.activeSelectionBackground": "{bg_sel}",
         "list.activeSelectionForeground": "{fg_main}",
         "list.dropBackground": "{bg_drop}",
         "list.errorForeground": "{fg_accent}",
-        "list.focusBackground": "{bg_hl}",
+        "list.focusBackground": "{bg_sel}",
         "list.highlightForeground": "{fg_bold}",
         "list.hoverBackground": "{bg_subtle}",
         "list.hoverForeground": "{fg_main}",
         "list.inactiveSelectionBackground": "{bg_fade}",
         "list.warningForeground": "{fg_accent}",
-        
+
         "minimap.infoHighlight": "{fg_main}",
 
         "notificationCenter.border": "{border}",
@@ -311,7 +311,7 @@
 
         "tab.activeBackground": "{bg_main}",
         "tab.activeBorder": "{bg_main}",
-        "tab.activeBorderTop": "{border}",
+        "tab.activeBorderTop": "{bg_main}",
         "tab.activeForeground": "{fg_main}",
         "tab.border": "{border}",
         "tab.hoverBackground": "{bg_main}",
@@ -344,7 +344,7 @@
         "terminal.ansiYellow": "{fg_accent}",
         "terminal.background": "{bg_main}",
         "terminal.foreground": "{fg_main}",
-        "terminal.selectionBackground": "{bg_hl}ee",
+        "terminal.selectionBackground": "{bg_sel}",
         "terminal.tab.activeBorder": "{fg_bold}",
         "terminalCommandDecoration.defaultBackground": "{fg_fade}",
         "terminalCommandDecoration.successBackground": "{fg_main}",
@@ -362,7 +362,7 @@
 
         "titleBar.activeBackground": "{bg_main}",
         "titleBar.activeForeground": "{fg_main}",
-        "titleBar.border": "{bg_main}",
+        "titleBar.border": "{border}",
         "titleBar.inactiveBackground": "{bg_main}",
         "titleBar.inactiveForeground": "{fg_dim}",
 
@@ -370,8 +370,8 @@
         "tree.indentGuidesStroke": "{fg_faint}",
 
         "toolbar.hoverBackground": "{bg_hl}",
-    
-        "window.activeBorder": "{bg_main}",
+
+        "window.activeBorder": "{border}",
         "window.inactiveBorder": "{bg_main}",
 
         "keybindingLabel.background": "{bg_fade}",

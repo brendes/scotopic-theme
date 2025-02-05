@@ -27,11 +27,6 @@
         "path": "./themes/scotopic-color-theme.json"
       },
       {
-        "label": "Scotopic Amber",
-        "uiTheme": "vs-dark",
-        "path": "./themes/scotopic-amber-color-theme.json"
-      },
-      {
         "label": "Scotopic Deep",
         "uiTheme": "vs-dark",
         "path": "./themes/scotopic-deep-color-theme.json"
