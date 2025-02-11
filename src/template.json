@@ -110,6 +110,9 @@
         "checkbox.foreground": "{fg_main}",
         "checkbox.selectBackground": "{fg_accent}",
 
+        "commandCenter.background": "{bg_main}",
+        "commandCenter.border": "{bg_main}",
+
         "debugToolBar.background": "{bg_main}",
         "debugToolBar.border": "{border}",
 
@@ -166,7 +169,7 @@
         "editorGroup.border": "{border}",
         "editorGroup.dropBackground": "{bg_drop}",
 
-        "editorGroupHeader.border": "{bg_main}",
+        "editorGroupHeader.border": "{border}",
         "editorGroupHeader.tabsBackground": "{bg_main}",
         "editorGroupHeader.tabsBorder": "{border}",
 
@@ -222,7 +225,7 @@
         "list.highlightForeground": "{fg_bold}",
         "list.hoverBackground": "{bg_subtle}",
         "list.hoverForeground": "{fg_main}",
-        "list.inactiveSelectionBackground": "{bg_fade}",
+        "list.inactiveSelectionBackground": "{bg_subtle}",
         "list.warningForeground": "{fg_accent}",
 
         "minimap.infoHighlight": "{fg_main}",
@@ -311,7 +314,7 @@
 
         "tab.activeBackground": "{bg_main}",
         "tab.activeBorder": "{bg_main}",
-        "tab.activeBorderTop": "{bg_main}",
+        "tab.activeBorderTop": "{border}",
         "tab.activeForeground": "{fg_main}",
         "tab.border": "{border}",
         "tab.hoverBackground": "{bg_main}",
@@ -362,7 +365,7 @@
 
         "titleBar.activeBackground": "{bg_main}",
         "titleBar.activeForeground": "{fg_main}",
-        "titleBar.border": "{border}",
+        "titleBar.border": "{bg_main}",
         "titleBar.inactiveBackground": "{bg_main}",
         "titleBar.inactiveForeground": "{fg_dim}",
 
