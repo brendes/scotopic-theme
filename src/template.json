@@ -374,7 +374,7 @@
 
         "toolbar.hoverBackground": "{bg_hl}",
 
-        "window.activeBorder": "{border}",
+        "window.activeBorder": "{bg_main}",
         "window.inactiveBorder": "{bg_main}",
 
         "keybindingLabel.background": "{bg_fade}",
