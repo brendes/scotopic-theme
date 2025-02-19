@@ -85,6 +85,11 @@
         "activityBar.border": "{bg_main}",
         "activityBar.foreground": "{fg_bold}",
         "activityBar.inactiveForeground": "{fg_fade}",
+        "activityBarTop.activeBackground": "{bg_main}",
+        "activityBarTop.activeBorder": "{bg_main}",
+        "activityBarTop.background": "{bg_main}",
+        "activityBarTop.foreground": "{fg_bold}",
+        "activityBarTop.inactiveForeground": "{fg_fade}",
 
         "activityBarBadge.background": "{fg_main}",
         "activityBarBadge.foreground": "{bg_main}",
