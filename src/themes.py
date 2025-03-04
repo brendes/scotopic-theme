@@ -27,7 +27,6 @@ for key, theme in themes.items():
     theme["bg_main"] = theme["base_0"]
     theme["bg_subtle"] = theme["base_1"]
     theme["bg_faint"] = theme["base_2"]
-    # theme["bg_fade"] = theme["base_3"] + "88"
     theme["bg_fade"] = theme["base_2"]
     theme["bg_hl"] = theme["base_3"]
     theme["bg_sel"] = theme["base_3"] + "e8"
@@ -40,4 +39,5 @@ for key, theme in themes.items():
     theme["fg_dim"] = theme["fg_main"] + "c0"
     theme["fg_fade"] = theme["fg_main"] + "88"
     theme["fg_faint"] = theme["fg_main"] + "55"
-    theme["border"] = theme["fg_fade"]
+    theme["border_soft"] = theme["fg_faint"]
+    theme["border_hard"] = theme["fg_fade"]
