@@ -39,7 +39,7 @@ for key, theme in themes.items():
     theme["fg_accent"] = theme["base_4"]
     theme["fg_subtle"] = theme["fg_main"] + "c8"
     theme["fg_dim"] = theme["fg_main"] + "c0"
-    theme["fg_fade"] = theme["fg_main"] + "88"
+    theme["fg_fade"] = theme["fg_main"] + "9b"
     theme["fg_faint"] = theme["fg_main"] + "55"
     theme["border_soft"] = theme["fg_faint"]
     theme["border_hard"] = theme["fg_fade"]
