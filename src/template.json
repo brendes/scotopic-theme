@@ -148,60 +148,50 @@
 
         "editor.background": "{bg_main}",
         "editor.foreground": "{fg_main}",
-        "editorCursor.foreground": "{fg_bold}",
-
         "editor.findMatchBackground": "{bg_match}",
         "editor.findMatchForeground": "{fg_bold}",
         "editor.findMatchHighlightBackground": "{bg_match}",
         "editor.findMatchHighlightForeground": "{fg_bold}",
-
         "editor.foldBackground": "{bg_main}",
-        "editor.lineHighlightBorder": "{bg_fade}",
         "editor.hoverHighlightBackground": "{bg_main}",
+        "editor.lineHighlightBorder": "{bg_fade}",
         "editor.placeholder.foreground": "{fg_dim}",
         "editor.rangeHighlightBackground": "{bg_hl}bb",
-        "editor.wordHighlightBackground": "{bg_fade}",
-        "editor.wordHighlightStrongBackground": "{bg_hl}bb",
-        "editorBracketMatch.background": "{bg_hl}",
-        "editorBracketMatch.border": "{fg_main}",
-
         "editor.selectionBackground": "{bg_sel}",
         "editor.selectionForeground": "{fg_main}",
+        "editor.wordHighlightBackground": "{bg_fade}",
+        "editor.wordHighlightStrongBackground": "{bg_fade}",
+        "editor.wordHighlightTextBackground": "{bg_fade}",
 
+        "editorBracketMatch.background": "{bg_hl}",
+        "editorBracketMatch.border": "{fg_main}",
         "editorCodeLens.foreground": "{fg_faint}",
+        "editorCursor.foreground": "{fg_bold}",
         "editorGhostText.foreground": "{fg_faint}",
-
         "editorGroup.border": "{border_soft}",
         "editorGroup.dropBackground": "{bg_drop}",
-
         "editorGroupHeader.border": "{border_soft}",
         "editorGroupHeader.tabsBackground": "{bg_main}",
         "editorGroupHeader.tabsBorder": "{border_soft}",
-
         "editorGutter.addedBackground": "{fg_accent}",
         "editorGutter.deletedBackground": "{fg_accent}",
         "editorGutter.modifiedBackground": "{fg_accent}",
-
         "editorInfo.foreground": "{fg_fade}",
-
         "editorIndentGuide.activeBackground1": "{bg_hl}",
         "editorIndentGuide.background1": "{bg_subtle}",
-
         "editorInlayHint.foreground": "{fg_faint}",
         "editorInlayHint.background": "{bg_main}",
-
         "editorLightBulb.foreground": "{fg_main}",
         "editorLightBulbAi.foreground": "{fg_main}",
         "editorLightBulbAutoFix.foreground": "{fg_main}",
-
         "editorLineNumber.activeForeground": "{fg_subtle}",
         "editorLineNumber.foreground": "{fg_faint}",
-
         "editorLink.activeForeground": "{fg_accent}",
-
+        "editorOverviewRuler.wordHighlightForeground": "{bg_fade}",
+        "editorOverviewRuler.wordHighlightStrongForeground": "{bg_fade}",
+        "editorOverviewRuler.wordHighlightTextForeground": "{bg_fade}",
         "editorStickyScroll.border": "{border_soft}",
         "editorStickyScrollHover.background": "{bg_fade}",
-
         "editorWarning.foreground": "{fg_subtle}",
 
         "gitDecoration.addedResourceForeground": "{fg_main}",
