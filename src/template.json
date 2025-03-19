@@ -231,6 +231,9 @@
 
         "minimap.infoHighlight": "{fg_main}",
 
+        "notebook.cellBorderColor": "{border_soft}",
+        "notebook.cellEditorBackground": "{bg_main}",
+
         "notificationCenter.border": "{border_soft}",
         "notificationCenterHeader.background": "{bg_fade}",
         "notificationCenterHeader.foreground": "{fg_main}",
@@ -290,6 +293,7 @@
         "sideBar.background": "{bg_main}",
         "sideBar.border": "{border_soft}",
         "sideBar.foreground": "{fg_main}",
+        "sideBarActivityBarTop.border": "{border_soft}",
         "sideBarSectionHeader.background": "{bg_main}",
         "sideBarSectionHeader.border": "{border_soft}",
         "sideBarSectionHeader.foreground": "{fg_bold}",
@@ -305,13 +309,13 @@
         "statusBar.noFolderBackground": "{bg_main}",
         "statusBar.noFolderForeground": "{fg_main}",
 
+        "statusBarItem.compactHoverBackground": "{fg_dim}",
         "statusBarItem.errorBackground": "{fg_accent}",
         "statusBarItem.errorForeground": "{bg_main}",
         "statusBarItem.hoverBackground": "{fg_main}",
         "statusBarItem.hoverForeground": "{bg_main}",
         "statusBarItem.prominentBackground": "{bg_main}",
         "statusBarItem.prominentForeground": "{fg_main}",
-        "statusBarItem.compactHoverBackground": "{fg_dim}",
         "statusBarItem.remoteBackground": "{bg_main}",
         "statusBarItem.remoteForeground": "{fg_main}",
         "statusBarItem.remoteHoverBackground": "{fg_main}",
