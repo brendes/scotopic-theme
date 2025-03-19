@@ -252,7 +252,7 @@
         "panelTitle.activeForeground": "{fg_main}",
         "panelTitle.inactiveForeground": "{fg_dim}",
 
-        "peekView.border": "{fg_subtle}",
+        "peekView.border": "{border_hard}",
         "peekViewEditor.background": "{bg_subtle}",
         "peekViewResult.background": "{bg_subtle}",
         "peekViewResult.fileForeground": "{fg_main}",
@@ -282,7 +282,7 @@
         "settings.dropdownListBorder": "{border_hard}",
         "settings.focusedRowBackground": "{bg_fade}",
         "settings.headerForeground": "{fg_main}",
-        "settings.modifiedItemIndicator": "{fg_accent}",
+        "settings.modifiedItemIndicator": "{fg_dim}",
         "settings.rowHoverBackground": "{bg_subtle}",
         "settings.textInputBackground": "{bg_main}",
 
@@ -353,11 +353,13 @@
         "terminal.ansiYellow": "{fg_accent}",
         "terminal.background": "{bg_main}",
         "terminal.foreground": "{fg_main}",
+        "terminal.initialHintForeground": "{fg_faint}",
         "terminal.selectionBackground": "{bg_sel}",
         "terminal.tab.activeBorder": "{fg_bold}",
         "terminalCommandDecoration.defaultBackground": "{fg_fade}",
         "terminalCommandDecoration.successBackground": "{fg_main}",
         "terminalCommandDecoration.errorBackground": "{fg_bold}",
+        "terminalOverviewRuler.border": "{bg_main}",
         "terminalStickyScrollHover.background": "{bg_fade}",
         "terminalStickyScroll.border": "{border_soft}",
 
@@ -380,7 +382,7 @@
 
         "toolbar.hoverBackground": "{bg_hl}",
 
-        "window.activeBorder": "{bg_main}",
+        "window.activeBorder": "{bg_subtle}",
         "window.inactiveBorder": "{bg_main}",
 
         "keybindingLabel.background": "{bg_fade}",
