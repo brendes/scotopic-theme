@@ -42,6 +42,7 @@ for key, theme in themes.items():
     theme["fg_faint"] = theme["fg_main"] + "55"
     theme["border_soft"] = theme["fg_faint"]
     theme["border_hard"] = theme["fg_fade"]
+    theme["invisible"] = "#00000000"
 
 
 def generate_theme(theme_dict, template_file, output_file):
