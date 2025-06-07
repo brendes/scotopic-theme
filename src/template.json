@@ -20,7 +20,7 @@
                 "markup.inline.raw"
             ],
             "settings": {
-                "foreground": "{fg_dim}"
+                "foreground": "{fg_subtle}"
             }
         },
         {
