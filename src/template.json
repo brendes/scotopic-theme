@@ -292,11 +292,12 @@
 
         "sideBar.background": "{bg_main}",
         "sideBar.border": "{border_soft}",
-        "sideBar.foreground": "{fg_main}",
+        "sideBar.foreground": "{fg_subtle}",
         "sideBarActivityBarTop.border": "{border_soft}",
         "sideBarSectionHeader.background": "{bg_main}",
         "sideBarSectionHeader.border": "{border_soft}",
-        "sideBarSectionHeader.foreground": "{fg_bold}",
+        "sideBarSectionHeader.foreground": "{fg_main}",
+        "sideBarTitle.foreground": "{fg_main}",
 
         "sideBySideEditor.horizontalBorder": "{border_soft}",
         "sideBySideEditor.verticalBorder": "{border_soft}",
