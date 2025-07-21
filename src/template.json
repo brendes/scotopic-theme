@@ -439,6 +439,20 @@
         "symbolIcon.textForeground": "{fg_main}",
         "symbolIcon.typeParameterForeground": "{fg_main}",
         "symbolIcon.unitForeground": "{fg_main}",
-        "symbolIcon.variableForeground": "{fg_main}"
+        "symbolIcon.variableForeground": "{fg_main}",
+
+        "testing.runAction": "{fg_main}",
+        "testing.iconErrored": "{fg_main}",
+        "testing.iconFailed": "{fg_main}",
+        "testing.iconPassed": "{fg_main}",
+        "testing.iconQueued": "{fg_main}",
+        "testing.iconUnset": "{fg_main}",
+        "testing.iconSkipped": "{fg_main}",
+        "testing.iconErrored.retired": "{fg_dim}",
+        "testing.iconFailed.retired": "{fg_dim}",
+        "testing.iconPassed.retired": "{fg_dim}",
+        "testing.iconQueued.retired": "{fg_dim}",
+        "testing.iconUnset.retired": "{fg_dim}",
+        "testing.iconSkipped.retired": "{fg_dim}"
     }
 }
