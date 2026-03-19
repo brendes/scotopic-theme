@@ -24,18 +24,18 @@ themes = {
 }
 
 for key, theme in themes.items():
-    theme["theme_name"] = key
-    theme["bg_main"] = theme["base_0"]
+    theme["name"] = key
+    theme["bg"] = theme["base_0"]
     theme["bg_subtle"] = theme["base_1"]
     theme["bg_fade"] = theme["base_2"]
     theme["bg_hl"] = theme["base_3"]
     theme["bg_sel"] = theme["base_3"] + "e8"
     theme["bg_match"] = theme["base_4"] + "78"
-    theme["bg_drop"] = theme["bg_hl"] + "88"
+    theme["bg_drop"] = theme["base_3"] + "88"
     theme["fg_bold"] = theme["base_6"]
-    theme["fg_main"] = theme["base_5"]
+    theme["fg"] = theme["base_5"]
     theme["fg_accent"] = theme["base_4"]
-    theme["invisible"] = "#00000000"
+    theme["none"] = "#00000000"
 
     if key == "Scotopic Deep":
         theme["fg_subtle"] = theme["base_5"] + "d0"
@@ -48,7 +48,7 @@ for key, theme in themes.items():
         theme["fg_fade"] = theme["base_5"] + "9b"
         theme["fg_faint"] = theme["base_5"] + "55"
 
-    theme["border_soft"] = theme["fg_faint"]
+    theme["border_soft"] = theme["fg_fade"]
     theme["border_hard"] = theme["fg_dim"]
 
 
@@ -78,7 +78,9 @@ def main():
         themes["Scotopic"], "src/template.json", "themes/scotopic-color-theme.json"
     )
     generate_theme(
-        themes["Scotopic Deep"], "src/template.json", "themes/scotopic-deep-color-theme.json"
+        themes["Scotopic Deep"],
+        "src/template.json",
+        "themes/scotopic-deep-color-theme.json",
     )
 
 
