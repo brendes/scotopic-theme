@@ -264,7 +264,7 @@
         "settings.textInputBackground": "{bg}",
         "sideBar.background": "{bg}",
         "sideBar.border": "{border_soft}",
-        "sideBar.foreground": "{fg_subtle}",
+        "sideBar.foreground": "{fg}",
         "sideBarActivityBarTop.border": "{border_soft}",
         "sideBarSectionHeader.background": "{bg}",
         "sideBarSectionHeader.border": "{border_soft}",
