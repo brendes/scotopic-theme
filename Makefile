@@ -1,6 +1,11 @@
 build:
 	mkdir -p themes
-	python3 src/build.py
+	for conf in src/themes/*.conf; do \
+		name=$$(basename $$conf .conf); \
+		awk -f src/build.awk -v template=src/lib/template.json \
+			src/lib/base.conf $$conf src/lib/template.json \
+			> themes/$$name-color-theme.json; \
+	done
 
 package: build
 	vsce package
