@@ -8,9 +8,15 @@ FILENAME != template {
 }
 
 !resolved {
-	for (k in v)
-		for (j in v)
-			gsub("[{]" j "[}]", v[j], v[k])
+	do {
+		changed = 0
+		for (k in v)
+			for (j in v)
+				if (v[k] ~ "[{]" j "[}]") {
+					gsub("[{]" j "[}]", v[j], v[k])
+					changed = 1
+				}
+	} while (changed)
 	resolved = 1
 }
 
